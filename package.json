@@ -1,0 +1,17 @@
+{
+  "name": "design-tokens",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node build-tokens.mjs",
+    "clean": "rimraf build"
+  },
+  "dependencies": {
+    "style-dictionary": "^4.0.0",
+    "@tokens-studio/sd-transforms": "^1.0.0",
+    "color": "^4.2.3"
+  },
+  "devDependencies": {
+    "rimraf": "^5.0.5"
+  }
+}
