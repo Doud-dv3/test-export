@@ -1,0 +1,526 @@
+{
+  "Color": {
+    "bg": {
+      "bg-100": {
+        "$type": "color",
+        "$value": "{Color.Gray.Gray950}"
+      },
+      "bg-200": {
+        "$type": "color",
+        "$value": "{Color.Gray.Gray900}"
+      },
+      "bg-250": {
+        "$type": "color",
+        "$value": "{Color.Gray.Gray950}",
+        "$description": "btm_nav-background, modal popup background"
+      },
+      "bg-300": {
+        "$type": "color",
+        "$value": "{Color.Gray.Gray800}"
+      },
+      "bg-modal": {
+        "$type": "color",
+        "$value": "{Color.Gray.Gray950-opa70}",
+        "$description": "**Fallback Color Code**  \nLight mode: #B5B5B5 / Dark mode: #0F0F0F"
+      }
+    },
+    "surface": {
+      "surface-gray-100": {
+        "$type": "color",
+        "$value": "{Color.Gray.Gray900}"
+      },
+      "surface-gray-200": {
+        "$type": "color",
+        "$value": "{Color.Gray.Gray800}"
+      },
+      "surface-gray-300": {
+        "$type": "color",
+        "$value": "{Color.Gray.Gray700}"
+      },
+      "surface-gray-300-opa70": {
+        "$type": "color",
+        "$value": "{Color.Gray.Gray700-opa70}",
+        "$description": "**Fallback Color Code**  \nLight mode: #F5F5F5 / Dark mode: #484848\n\n**used case**\ntoast background"
+      },
+      "surface-gray-320": {
+        "$type": "color",
+        "$value": "{Color.Gray.Gray500}",
+        "$description": "modal handle color"
+      },
+      "surface-gray-350(disable 1)": {
+        "$type": "color",
+        "$value": "{Color.Gray.Gray700}",
+        "$description": "only disable color used"
+      },
+      "surface-gray-360": {
+        "$type": "color",
+        "$value": "{Color.Gray.Gray800}",
+        "$description": "slide_sliderbar btn surface,  chips background, snackbar background, Tooltip background,"
+      },
+      "surface-gray-370": {
+        "$type": "color",
+        "$value": "{Color.Gray.Gray900}",
+        "$description": "solid-tab-background"
+      },
+      "surface-gray-400": {
+        "$type": "color",
+        "$value": "{Color.Gray.Gray500}"
+      },
+      "surface-gray-400-opa5": {
+        "$type": "color",
+        "$value": "{Color.Gray.Gray500-opa5}",
+        "$description": "**Fallback Color Code**  \nLight mode: #F9F9F9 / Dark mode: #393939"
+      },
+      "surface-gray-400-opa10": {
+        "$type": "color",
+        "$value": "{Color.Gray.Gray500-opa10}",
+        "$description": "**Fallback Color Code**  \nLight mode: #F3F3F3 / Dark mode: #3E3E3E"
+      },
+      "surface-gray-400-opa30": {
+        "$type": "color",
+        "$value": "{Color.Gray.Gray500-opa30}",
+        "$description": "**Fallback Color Code**  \nLight mode: #DCDCDC / Dark mode: #4F4F4F"
+      },
+      "surface-gray-400-opa50": {
+        "$type": "color",
+        "$value": "{Color.Gray.Gray500-opa50}",
+        "$description": "**Fallback Color Code**  \nLight mode: #C5C5C5 / Dark mode: #606060"
+      },
+      "surface-gray-480": {
+        "$type": "color",
+        "$value": "{Color.Gray.Gray950}",
+        "$description": "slider/track_w312 slider background color"
+      },
+      "surface-black-100": {
+        "$type": "color",
+        "$value": "{Color.Gray.Black}"
+      },
+      "surface-black-150": {
+        "$type": "color",
+        "$value": "{Color.Gray.White}"
+      },
+      "surface-white-100": {
+        "$type": "color",
+        "$value": "{Color.Gray.White}"
+      },
+      "surface-white-150": {
+        "$type": "color",
+        "$value": "{Color.Gray.Black}"
+      },
+      "surface-primary": {
+        "$type": "color",
+        "$value": "{Color.Primary.Primary-DR}"
+      },
+      "surface-primary-opa5": {
+        "$type": "color",
+        "$value": "{Color.Primary.Primary-DR-opa5}",
+        "$description": "**Fallback Color Code**  \n*Q.OMMAND* \nLight mode: #F2FCFC / Dark mode: #323C3C \n*ES Paltform* \nLight mode: #F4F7FD / Dark mode: #373A3F"
+      },
+      "surface-primary-opa10": {
+        "$type": "color",
+        "$value": "{Color.Primary.Primary-DR-opa10}",
+        "$description": "**Fallback Color Code**  \n*Q.OMMAND*\nLight mode: #E5F9F9 / Dark mode: #304343 \n*ES Paltform* \nLight mode: #E9EFFC / Dark mode: #394049"
+      },
+      "surface-primary-hover": {
+        "$type": "color",
+        "$value": "{Color.Primary.Primary-DR-Light}"
+      },
+      "surface-primary-active": {
+        "$type": "color",
+        "$value": "{Color.Primary.Primary-DR-Lighter}"
+      },
+      "surface-alert-warning-opa5": {
+        "$type": "color",
+        "$value": "{Color.Sub.Tangerine.Tangerine-DR-opa5}",
+        "$description": "**Fallback Color Code**  \nLight mode: #FFF9F4 / Dark mode: #3F3934"
+      },
+      "surface-alert-critical": {
+        "$type": "color",
+        "$value": "{Color.Sub.Red.Red-DR}"
+      },
+      "surface-alert-critical-opa5": {
+        "$type": "color",
+        "$value": "{Color.Sub.Red.Red-DR-opa5}",
+        "$description": "**Fallback Color Code**\nLight mode: #FDF2F3 / Dark mode: #3D3233"
+      },
+      "surface-alert-critical-opa10": {
+        "$type": "color",
+        "$value": "{Color.Sub.Red.Red-DR-opa10}",
+        "$description": "**Fallback Color Code** \nLight mode: #FBE5E7 / Dark mode: #463032"
+      },
+      "surface-alert-critical-opa40": {
+        "$type": "color",
+        "$value": "{Color.Sub.Red.Red-DR-opa40}",
+        "$description": "**Fallback Color Code** \nLight mode: #F199A0 / Dark mode: #772027"
+      },
+      "surface-alert-critical-hover": {
+        "$type": "color",
+        "$value": "{Color.Sub.Red.Red-DR-Light}"
+      },
+      "surface-alert-critical-active": {
+        "$type": "color",
+        "$value": "{Color.Sub.Red.Red-DR-Lighter}"
+      },
+      "surface-primary-surface": {
+        "$type": "color",
+        "$value": "{Color.Primary.Primary-DR-Surface}",
+        "$description": "banner background"
+      },
+      "surface-alert-critical-surface": {
+        "$type": "color",
+        "$value": "{Color.Sub.Red.Red-DR-Surface}",
+        "$description": "banner background"
+      },
+      "surface-alert-warning": {
+        "$type": "color",
+        "$value": "{Color.Sub.Tangerine.Tangerine-DR}"
+      },
+      "surface-alert-warning-hover": {
+        "$type": "color",
+        "$value": "{Color.Sub.Tangerine.Tangerine-DR-Light}"
+      },
+      "surface-alert-warning-active": {
+        "$type": "color",
+        "$value": "{Color.Sub.Tangerine.Tangerine-DR-Lighter}"
+      },
+      "surface-alert-warning-surface": {
+        "$type": "color",
+        "$value": "{Color.Sub.Tangerine.Tangerine-DR-Surface}"
+      },
+      "surface-gray-600(disable 2)": {
+        "$type": "color",
+        "$value": "{Color.Gray.Gray600}",
+        "$description": "disable 1 컬러 위에 얹어지는 경우 사용"
+      },
+      "surface-gray-305": {
+        "$type": "color",
+        "$value": "{Color.Gray.Gray100}",
+        "$description": "slider/handle"
+      },
+      "surface-alert-warning-opa10": {
+        "$type": "color",
+        "$value": "{Color.Sub.Tangerine.Tangerine-DR-opa10}",
+        "$description": "**Fallback Color Code**  \nLight mode: #FFF3E8 / Dark mode: #493E33"
+      },
+      "surface-primary-opa15": {
+        "$type": "color",
+        "$value": "{Color.Primary.Primary-DR-opa15}",
+        "$description": "**Fallback Color Code**  \n*Q.OMMAND* \nLight mode: #D9F6F6 / Dark mode: #2D4B4A \n*ES Paltform* \nLight mode: #DFE8FA / Dark mode: #3C4553 \n\n**used case**\n-part-/slide_date_num background, chip hover"
+      },
+      "surface-alert-warning-opa40": {
+        "$type": "color",
+        "$value": "{Color.Sub.Tangerine.Tangerine-DR-opa40}",
+        "$description": "**Fallback Color Code**  \nLight mode: #FED1A4 / Dark mode: #85572B"
+      },
+      "surface-gray-300-hover": {
+        "$type": "color",
+        "$value": "{Color.Gray.Gray600}"
+      },
+      "surface-gray-300-Active": {
+        "$type": "color",
+        "$value": "{Color.Gray.Gray500}"
+      },
+      "surface-gray-400-hover": {
+        "$type": "color",
+        "$value": "{Color.Gray.Gray300}",
+        "$description": "toggle background hover"
+      },
+      "surface-alert-critical-opa15": {
+        "$type": "color",
+        "$value": "{Color.Sub.Red.Red-DR-opa15}",
+        "$description": "**Fallback Color Code**  \nLight mode: #FAD9DB / Dark mode: #4E2D30\n\n**used case**\nchip hover"
+      },
+      "surface-primary-opa20": {
+        "$type": "color",
+        "$value": "{Color.Primary.Primary-DR-opa20}",
+        "$description": "**Fallback Color Code**\n*Q.OMMAND* \nLight mode: #CCF4F3 / Dark mode: #2A5251 \n*ES Paltform* \nLight mode: #D4E0F8 / Dark mode: #3E4A5D \n\n**used case**\nchip active"
+      },
+      "surface-alert-warning-opa15": {
+        "$type": "color",
+        "$value": "{Color.Sub.Tangerine.Tangerine-DR-opa15}",
+        "$description": "**Fallback Color Code**  \nLight mode: #FFEEDD / Dark mode: #534231\n\n**used case**\nchip hover"
+      },
+      "surface-alert-warning-opa20": {
+        "$type": "color",
+        "$value": "{Color.Sub.Tangerine.Tangerine-DR-opa20}",
+        "$description": "**Fallback Color Code**  \nLight mode: #FFE8D2 / Dark mode: #5D4630\n\n**used case**\nchip active"
+      },
+      "surface-alert-critical-opa20": {
+        "$type": "color",
+        "$value": "{Color.Sub.Red.Red-DR-opa20}",
+        "$description": "**Fallback Color Code**  \nLight mode: #F8CCD0 / Dark mode: #562A2E\n\n**used case**\nchip active"
+      },
+      "surface-alert-success": {
+        "$type": "color",
+        "$value": "{Color.Sub.Green.Green-DR}"
+      },
+      "surface-alert-success-hover": {
+        "$type": "color",
+        "$value": "{Color.Sub.Green.Green-DR-Light}"
+      },
+      "surface-alert-success-active": {
+        "$type": "color",
+        "$value": "{Color.Sub.Green.Green-DR-Lighter}"
+      },
+      "surface-alert-Minor": {
+        "$type": "color",
+        "$value": "{Color.Sub.Yellow.Yellow-DR}"
+      },
+      "surface-alert-Minor-hover": {
+        "$type": "color",
+        "$value": "{Color.Sub.Yellow.Yellow-DR-Light}"
+      },
+      "surface-alert-Minor-active": {
+        "$type": "color",
+        "$value": "{Color.Sub.Yellow.Yellow-DR-Lighter}"
+      },
+      "surface-alert-Minor-surface": {
+        "$type": "color",
+        "$value": "{Color.Sub.Yellow.Yellow-DR-Surface}"
+      },
+      "surface-alert-success-surface": {
+        "$type": "color",
+        "$value": "{Color.Sub.Green.Green-DR-Surface}"
+      },
+      "surface-primary-opa50": {
+        "$type": "color",
+        "$value": "{Color.Primary.Primary-DR-opa50}",
+        "$description": "**Fallback Color Code**\n*Q.OMMAND* \nLight mode: #80E3E0 / Dark mode: #1B7E7B \n*ES Paltform* \nLight mode: #93B1EF / Dark mode: #4B6A9A \n\n**used case**\nToggle active disable"
+      }
+    },
+    "border": {
+      "border-100": {
+        "$type": "color",
+        "$value": "{Color.Gray.Gray800}",
+        "$description": "horizon line color for dividing some section"
+      },
+      "border-150": {
+        "$type": "color",
+        "$value": "{Color.Gray.Gray700}",
+        "$description": "bg-gray-300 on border use this color"
+      },
+      "border-200": {
+        "$type": "color",
+        "$value": "{Color.Gray.Gray800}",
+        "$description": "clickable components like text field, chips, ...\nbox line color"
+      },
+      "border-300": {
+        "$type": "color",
+        "$value": "{Color.Gray.Gray500}"
+      },
+      "border-400(disable)": {
+        "$type": "color",
+        "$value": "{Color.Gray.Gray600}"
+      },
+      "border-500": {
+        "$type": "color",
+        "$value": "{Color.Gray.Black}",
+        "$description": "module line"
+      },
+      "border-on-100(disable)": {
+        "$type": "color",
+        "$value": "{Color.Gray.Gray500}"
+      },
+      "border-primary": {
+        "$type": "color",
+        "$value": "{Color.Primary.Primary-DR}"
+      },
+      "border-alert-warning": {
+        "$type": "color",
+        "$value": "{Color.Sub.Tangerine.Tangerine-DR}"
+      },
+      "border-alert-critical": {
+        "$type": "color",
+        "$value": "{Color.Sub.Red.Red-DR}"
+      },
+      "border-600": {
+        "$type": "color",
+        "$value": "{Color.Gray.Gray950}",
+        "$description": "Checkbox-line"
+      }
+    },
+    "text": {
+      "text-100": {
+        "$type": "color",
+        "$value": "{Color.Gray.Gray50}"
+      },
+      "text-200": {
+        "$type": "color",
+        "$value": "{Color.Gray.Gray300}"
+      },
+      "text-300": {
+        "$type": "color",
+        "$value": "{Color.Gray.Gray50}",
+        "$description": "module text"
+      },
+      "text-400(disable)": {
+        "$type": "color",
+        "$value": "{Color.Gray.Gray600}"
+      },
+      "text-on-100": {
+        "$type": "color",
+        "$value": "{Color.Gray.Gray950}"
+      },
+      "text-on-200(disable)": {
+        "$type": "color",
+        "$value": "{Color.Gray.Gray500}"
+      },
+      "text-primary": {
+        "$type": "color",
+        "$value": "{Color.Primary.Primary-DR}"
+      },
+      "text-alert-warning": {
+        "$type": "color",
+        "$value": "{Color.Sub.Tangerine.Tangerine-DR}"
+      },
+      "text-alert-critical": {
+        "$type": "color",
+        "$value": "{Color.Sub.Red.Red-DR}"
+      },
+      "text-black": {
+        "$type": "color",
+        "$value": "{Color.Gray.Gray950}"
+      },
+      "text-white": {
+        "$type": "color",
+        "$value": "{Color.Gray.White}"
+      },
+      "text-alert-minor": {
+        "$type": "color",
+        "$value": "{Color.Sub.Yellow.Yellow-DR}"
+      }
+    },
+    "icon": {
+      "icon-100": {
+        "$type": "color",
+        "$value": "{Color.Gray.Gray300}"
+      },
+      "icon-150": {
+        "$type": "color",
+        "$value": "{Color.Gray.Gray950}"
+      },
+      "icon-200": {
+        "$type": "color",
+        "$value": "{Color.Gray.White}"
+      },
+      "icon-210-opa20": {
+        "$type": "color",
+        "$value": "{Color.Gray.Gray50-opa20}",
+        "$description": "**Fallback Color Code**  \nLight mode: #CECECE / Dark mode: #5C5C5C\n\n**used case**\nicon Wifi 감도 표시에 사용되고 있음"
+      },
+      "icon-300": {
+        "$type": "color",
+        "$value": "{Color.Gray.Gray800}"
+      },
+      "icon-400(disable)": {
+        "$type": "color",
+        "$value": "{Color.Gray.Gray600}"
+      },
+      "icon-on-100": {
+        "$type": "color",
+        "$value": "{Color.Gray.Gray900}"
+      },
+      "icon-on-200(disable)": {
+        "$type": "color",
+        "$value": "{Color.Gray.Gray500}"
+      },
+      "icon-primary": {
+        "$type": "color",
+        "$value": "{Color.Primary.Primary-DR}"
+      },
+      "icon-alert-warning": {
+        "$type": "color",
+        "$value": "{Color.Sub.Tangerine.Tangerine-DR}"
+      },
+      "icon-alert-critical": {
+        "$type": "color",
+        "$value": "{Color.Sub.Red.Red-DR}"
+      },
+      "icon-on-300": {
+        "$type": "color",
+        "$value": "{Color.Gray.Gray950}",
+        "$description": "FAB Icon"
+      },
+      "icon-primary-opa50(disable)": {
+        "$type": "color",
+        "$value": "{Color.Primary.Primary-DR-opa50}",
+        "$description": "**Fallback Color Code**\n*Q.OMMAND* \nLight mode: #80E3E0 / Dark mode: #1B7E7B \n*ES Paltform* \nLight mode: #93B1EF / Dark mode: #4B6A9A"
+      }
+    },
+    "Module": {
+      "grade-1": {
+        "$type": "color",
+        "$value": "{Color.Module Grade Color.Module-Grade-1}"
+      },
+      "grade-2": {
+        "$type": "color",
+        "$value": "{Color.Module Grade Color.Module-Grade-2}"
+      },
+      "grade-3": {
+        "$type": "color",
+        "$value": "{Color.Module Grade Color.Module-Grade-3}"
+      },
+      "grade-4": {
+        "$type": "color",
+        "$value": "{Color.Module Grade Color.Module-Grade-4}"
+      },
+      "grade-5": {
+        "$type": "color",
+        "$value": "{Color.Module Grade Color.Module-Grade-5}"
+      },
+      "grade-6": {
+        "$type": "color",
+        "$value": "{Color.Module Grade Color.Module-Grade-6}"
+      },
+      "grade-7": {
+        "$type": "color",
+        "$value": "{Color.Module Grade Color.Module-Grade-7}"
+      },
+      "grade-8": {
+        "$type": "color",
+        "$value": "{Color.Module Grade Color.Module-Grade-8}"
+      },
+      "grade-9": {
+        "$type": "color",
+        "$value": "{Color.Module Grade Color.Module-Grade-9}"
+      },
+      "grade-10": {
+        "$type": "color",
+        "$value": "{Color.Module Grade Color.Module-Grade-10}"
+      }
+    },
+    "transparent": {
+      "$type": "color",
+      "$value": "{Color.Transparent}"
+    },
+    "shadow": {
+      "shadow-200": {
+        "$type": "color",
+        "$value": "{Color.Gray.Black-opa50}",
+        "$description": "**Fallback Color Code**  \nLight mode: #E5E5E5 / Dark mode: #1B1B1B"
+      },
+      "shadow-100": {
+        "$type": "color",
+        "$value": "{Color.Gray.Black-opa40}",
+        "$description": "**Fallback Color Code**  \nLight mode: #F2F2F2 / Dark mode: #202020"
+      },
+      "shadow-300": {
+        "$type": "color",
+        "$value": "{Color.Gray.Black-opa60}",
+        "$description": "**Fallback Color Code**  \nLight mode: #CECECE / Dark mode: #151515"
+      },
+      "shadow-100_opa": {
+        "$type": "number",
+        "$value": "40",
+        "$description": "shadow-100 을 Table inner shadow 로 사용하기 어려울 경우 used"
+      }
+    }
+  },
+  "Text": {
+    "Mode": {
+      "$type": "text",
+      "$value": "dark",
+      "$description": "image 자동 전환을 위한 코드"
+    }
+  }
+}

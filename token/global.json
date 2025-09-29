@@ -1,0 +1,18 @@
+{
+  "Red-LT": {
+    "$type": "color",
+    "$value": "#DB0012"
+  },
+  "Red-DR": {
+    "$type": "color",
+    "$value": "#FF5959"
+  },
+  "White": {
+    "$type": "color",
+    "$value": "#ffffff"
+  },
+  "Black": {
+    "$type": "color",
+    "$value": "#000000"
+  }
+}
