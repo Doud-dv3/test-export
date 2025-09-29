@@ -1,0 +1,27 @@
+name: Build tokens (HEX/HSL/RGBA)
+
+on:
+  push:
+    paths:
+      - 'tokens/**'
+      - 'package.json'
+      - 'build-tokens.mjs'
+      - '.github/workflows/build-tokens.yml'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write  # 빌드 산출물 커밋 권한
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: npm ci
+      - run: npm run build
+      - name: Commit build outputs
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: 'chore(tokens): build HEX/HSL/RGBA'
+          file_pattern: build/**
