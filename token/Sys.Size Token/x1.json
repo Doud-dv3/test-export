@@ -1,0 +1,90 @@
+{
+  "fontsizes": {
+    "fs-4": {
+      "$type": "fontSizes",
+      "$value": "4"
+    },
+    "fs-8": {
+      "$type": "fontSizes",
+      "$value": "8"
+    },
+    "fs-10": {
+      "$type": "fontSizes",
+      "$value": "10"
+    },
+    "fs-12": {
+      "$type": "fontSizes",
+      "$value": "12"
+    },
+    "fs-14": {
+      "$type": "fontSizes",
+      "$value": "14"
+    },
+    "fs-16": {
+      "$type": "fontSizes",
+      "$value": "16"
+    },
+    "fs-20": {
+      "$type": "fontSizes",
+      "$value": "20"
+    },
+    "fs-24": {
+      "$type": "fontSizes",
+      "$value": "24"
+    },
+    "fs-32": {
+      "$type": "fontSizes",
+      "$value": "32"
+    }
+  },
+  "lineheights": {
+    "lh-8": {
+      "$type": "lineHeights",
+      "$value": "8"
+    },
+    "lh-12": {
+      "$type": "lineHeights",
+      "$value": "12"
+    },
+    "lh-14": {
+      "$type": "lineHeights",
+      "$value": "14"
+    },
+    "lh-16": {
+      "$type": "lineHeights",
+      "$value": "16"
+    },
+    "lh-18": {
+      "$type": "lineHeights",
+      "$value": "18"
+    },
+    "lh-20": {
+      "$type": "lineHeights",
+      "$value": "20"
+    },
+    "lh-22": {
+      "$type": "lineHeights",
+      "$value": "22"
+    },
+    "lh-24": {
+      "$type": "lineHeights",
+      "$value": "24"
+    },
+    "lh-26": {
+      "$type": "lineHeights",
+      "$value": "26"
+    },
+    "lh-28": {
+      "$type": "lineHeights",
+      "$value": "28"
+    },
+    "lh-30": {
+      "$type": "lineHeights",
+      "$value": "30"
+    },
+    "lh-36": {
+      "$type": "lineHeights",
+      "$value": "36"
+    }
+  }
+}

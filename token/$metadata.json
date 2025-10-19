@@ -1,9 +1,12 @@
 {
   "tokenSetOrder": [
-    "global",
-    "Product/Q.OMMAND",
-    "Product/ES_Platform",
-    "Sys.Mode Token/Light mode",
-    "Sys.Mode Token/Dark mode"
+    "Global",
+    "View",
+    "Primary/Q.OMMAND",
+    "Primary/ES Platform",
+    "Sys.Mode Token/Light_mode",
+    "Sys.Mode Token/Dark_mode",
+    "Sys.Size Token/common",
+    "Sys.Size Token/x1"
   ]
 }

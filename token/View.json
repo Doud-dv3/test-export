@@ -1,0 +1,102 @@
+{
+  "Sub": {
+    "Orange": {
+      "$type": "color",
+      "$value": "#F16B54"
+    },
+    "Merigold": {
+      "$type": "color",
+      "$value": "#FFB800"
+    },
+    "Yellow": {
+      "$type": "color",
+      "$value": "#FFD71A"
+    },
+    "Lightgreen": {
+      "$type": "color",
+      "$value": "#A1E51A"
+    },
+    "Green": {
+      "$type": "color",
+      "$value": "#18D848"
+    },
+    "Teal": {
+      "$type": "color",
+      "$value": "#00C6C1"
+    },
+    "Skyblue": {
+      "$type": "color",
+      "$value": "#00A3F5"
+    },
+    "Dodger Blue": {
+      "$type": "color",
+      "$value": "#0F87FF"
+    },
+    "Cobalt Blue": {
+      "$type": "color",
+      "$value": "#3767FF"
+    },
+    "Purple": {
+      "$type": "color",
+      "$value": "#8A5BEA"
+    },
+    "Purple-opa80": {
+      "$type": "color",
+      "$value": "rgba(138,91,234,0.8)"
+    },
+    "Magenta": {
+      "$type": "color",
+      "$value": "#F20DCC"
+    },
+    "Bluegray": {
+      "$type": "color",
+      "$value": "#93ACDB"
+    },
+    "Gray": {
+      "$type": "color",
+      "$value": "#A9A9A9"
+    }
+  },
+  "Module Grade Color": {
+    "Module-Grade-1": {
+      "$type": "color",
+      "$value": "#E6E673"
+    },
+    "Module-Grade-2": {
+      "$type": "color",
+      "$value": "#BFE673"
+    },
+    "Module-Grade-3": {
+      "$type": "color",
+      "$value": "#9EE673"
+    },
+    "Module-Grade-4": {
+      "$type": "color",
+      "$value": "#73E686"
+    },
+    "Module-Grade-5": {
+      "$type": "color",
+      "$value": "#73E6C0"
+    },
+    "Module-Grade-6": {
+      "$type": "color",
+      "$value": "#73E6DA"
+    },
+    "Module-Grade-7": {
+      "$type": "color",
+      "$value": "#73D3E6"
+    },
+    "Module-Grade-8": {
+      "$type": "color",
+      "$value": "#73B6E6"
+    },
+    "Module-Grade-9": {
+      "$type": "color",
+      "$value": "#73A2E6"
+    },
+    "Module-Grade-10": {
+      "$type": "color",
+      "$value": "#7386E6"
+    }
+  }
+}
